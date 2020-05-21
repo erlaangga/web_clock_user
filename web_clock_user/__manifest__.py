@@ -36,6 +36,6 @@
     'qweb': [
         "static/src/xml/clock.xml",
     ],
-    'images':['static/src/description/banner.png'],
+    'images':['static/description/banner.png'],
     'application': True,
 }
