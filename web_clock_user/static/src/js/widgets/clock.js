@@ -2,7 +2,7 @@ odoo.define('web.clock', function(require){
 "use strict";
 
 /**
- * Time is unvaluable thing we have. Every second does matter.
+ * Time is invaluable thing we have. Every second does matter.
  * 
  * 
  */
