@@ -2,7 +2,7 @@ odoo.define('web.clock', function(require){
 "use strict";
 
 /**
- * Time is unvaluable thing we have. Every second does matter.
+ * Time is invaluable thing we have. Every second does matter.
  * 
  * 
  */
@@ -209,7 +209,7 @@ var AnalogClock = Widget.extend({
     _onDblClick: function (ev) {
         ev.preventDefault();
         clearInterval(this.interval);
-        this.$el.remove();
+        this.destroy();
     },
     _moveDial: function(ev){
       var bsDiv = this.$el[0];
